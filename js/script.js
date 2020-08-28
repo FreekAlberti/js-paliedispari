@@ -7,13 +7,13 @@ function parolaPalindroma(par) {
 var conteggio = 0;
 var palindroma = false;
 for (var i = par.length - 1; i >= 0; i--) {
-  conteggio++;
   if (par[i] == par[conteggio]) {
     palindroma = true;
   } else {
     palindroma = false;
     return palindroma;
   }
+  conteggio++;
 }
 return palindroma;
 }
