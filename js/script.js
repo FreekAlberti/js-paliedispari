@@ -9,6 +9,9 @@ var palindroma = false;
 for (var i = par.length - 1; i >= 0; i--) {
   if (par[i] == par[conteggio]) {
     palindroma = true;
+  } else {
+    palindroma = false;
+    break;
   }
   conteggio++;
 }
